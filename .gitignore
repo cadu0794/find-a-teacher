@@ -1,0 +1,21 @@
+# Arquivos gerados pelo .NET
+**/bin/
+**/obj/
+
+# Configurações locais de IDE
+.vs/
+.vscode/
+
+# Dependências e build do frontend
+frontend/node_modules/
+frontend/dist/
+
+# Arquivos de ambiente e logs
+.env
+.env.*
+!.env.example
+*.log
+
+# Arquivos do sistema operacional
+Thumbs.db
+.DS_Store
